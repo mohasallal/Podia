@@ -18,7 +18,7 @@ nav {
   font-weight: 400;
   top: 0;
   box-sizing: border-box;
-  padding: 10px 50px;
+  padding: 15px 30px;
   background-color: var(--White-color);
   box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.2);
 }
@@ -63,7 +63,7 @@ nav {
 }
 
 .right__navBar {
-  gap: 15px;
+  gap: 5px;
 }
 
 .Mobile__menu {

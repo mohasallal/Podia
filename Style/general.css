@@ -48,4 +48,22 @@ body {
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
+
+.BtnThree {
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--White-color);
+  padding: 15px 20px;
+  font-size: 1em;
+  font-weight: 550;
+  border-radius: 50px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.BtnThree:hover {
+  background-color: var(--primary-color);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
 /*End Buttons*/
