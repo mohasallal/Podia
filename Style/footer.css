@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #4b2aad;
+  --Dark-primary-color: #351e7c;
+  --secondary-color: #9484c6;
+  --tertiary-color: #201445;
+  --Hover-bgcolor: #f5efeb;
+  --Whiteish-color: #fdfbf9;
+  --White-color: #ffffff;
+}
+
+.help {
+  fill: var(--White-color);
+  background-color: var(--primary-color);
+  padding: 15px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  border-radius: 50%;
+  bottom: 2%;
+  right: 1%;
+}
+
+.help:hover {
+  background-color: var(--Dark-primary-color);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  scale: 1.05;
+}
