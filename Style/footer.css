@@ -6,6 +6,17 @@
   --Hover-bgcolor: #f5efeb;
   --Whiteish-color: #fdfbf9;
   --White-color: #ffffff;
+  --gray-color: #9c8881;
+  --dark-gray-color: #5c5856;
+  --golden-color: #ffae00;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Hover-bgcolor);
 }
 
 .help {
@@ -26,4 +37,73 @@
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
   scale: 1.05;
+}
+
+.footer {
+  background-color: var(--Hover-bgcolor);
+  width: 80%;
+  padding: 50px 50px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.line ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.line ul li a {
+  color: var(--dark-gray-color);
+}
+
+.line p {
+  font-weight: bold;
+}
+
+.icon__down {
+  display: none;
+}
+
+.copyRights {
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 64em) {
+  .line ul {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .line {
+    justify-content: space-between;
+  }
+
+  .line:hover {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+
+  .line:focus {
+    color: var(--primary-color);
+    fill: var(--primary-color);
+  }
+
+  .icon__down {
+    display: block;
+  }
 }

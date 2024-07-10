@@ -6,6 +6,9 @@
   --Hover-bgcolor: #f5efeb;
   --Whiteish-color: #fdfbf9;
   --White-color: #ffffff;
+  --gray-color: #9c8881;
+  --dark-gray-color: #5c5856;
+  --golden-color: #ffae00;
 }
 
 nav {
@@ -17,6 +20,7 @@ nav {
   font-size: 18px;
   font-weight: 400;
   top: 0;
+  z-index: 100;
   box-sizing: border-box;
   padding: 15px 30px;
   background-color: var(--White-color);

@@ -2,14 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@100..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
-  --primary-color: #4b2aad;
-  --Dark-primary-color: #351e7c;
-  --secondary-color: #9484c6;
-  --tertiary-color: #201445;
-  --Hover-bgcolor: #f5efeb;
-  --Whiteish-color: #fdfbf9;
-  --White-color: #ffffff;
-}
+    --primary-color: #4b2aad;
+    --Dark-primary-color: #351e7c;
+    --secondary-color: #9484c6;
+    --tertiary-color: #201445;
+    --Hover-bgcolor: #f5efeb;
+    --Whiteish-color: #fdfbf9;
+    --White-color: #ffffff;
+    --gray-color: #9c8881;
+    --dark-gray-color: #5c5856;
+    --golden-color: #ffae00;
+  }
 
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
